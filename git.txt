@@ -1,0 +1,15 @@
+----| Tạo dự án ở local và đẩy lên GitHub |----
+
+git init: Khởi tạo repository local
+
+Khai báo các file cần thêm vào local repository
+git add [tên file] (thêm file cụ thể) hoặc git add . (thêm tất cả files)
+
+Xác nhận files cần thêm và lý do thêm files
+git commit –m “lý do”
+
+kết nối local repository với remote repository
+git remote add origin [đường dẫn trên github]
+
+Đẩy files lên remote repository
+git push –u origin master

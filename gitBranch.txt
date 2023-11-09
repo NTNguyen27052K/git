@@ -1,0 +1,13 @@
+git branch [tennhanh]: Tạo branch
+
+git checkout [tennhanh]:  Chuyển branch
+
+git checkout -b [tennhanh]: Tạo và chuyển branch
+
+Đẩy nhánh mới lên remote repository
+git push
+git push --set-upstream origin [tennhanh]
+
+git branch -D [tennhanh]: Xoá branch
+
+git branch: Kiểm tra nhánh
